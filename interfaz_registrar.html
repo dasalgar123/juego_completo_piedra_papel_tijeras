@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel, Tijeras - Selección de Perfil</title>
+    <link rel="stylesheet" href="interfaz_registrar.css">
+    </head>
+<body>
+    <div id="app">
+        <div class="frame">
+            <fieldset>
+                <legend><h3></h3>Registrar Formulario</legend>
+                <form id="loginForm">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="favor, ingrese su nombre" required>
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" placeholder="favor, ingrese su contraseña" required>
+                </form>
+                <div id="mensaje"></div> <!-- Contenedor para el mensaje -->
+            </fieldset>
+        </div>
+    </div>
+    <div id="app">
+        <div class="frame">
+            <h1>Selecciona tu perfil</h1>
+            <div class="opciones">
+                <label>
+                    <input type="radio" name="genero" id="btnHombre" class="btnPerfil" value="Hombre"> Hombre
+                </label>
+                <label>
+                    <input type="radio" name="genero" id="btnMujer" class="btnPerfil" value="Mujer"> Mujer
+                </label>
+            </div>
+            
+            <div class="perfiles">
+                <div class="perfiles_jugar">
+                    <img id="imgPerfil" src="" alt="Perfil seleccionado" class="perfil-img" />
+                    <h1 class="text_Te_llamaste">Te llamaste >></h1>
+                    <div class="contendor_tu_nombre"><p id="respuesta_tu_nombre"></p></div>
+                </div>
+                
+                <div class="img-container">
+                    <img src="perfil_01.jpeg" alt="Perfil 1" class="perfil-img" />
+                    <img src="perfil_02.jpeg" alt="Perfil 2" class="perfil-img" />
+                    <img src="perfil_03.jpeg" alt="Perfil 3" class="perfil-img" />
+                    <img src="perfil_04.jpeg" alt="Perfil 4" class="perfil-img" />
+                    <img src="perfil_05.jpeg" alt="Perfil 5" class="perfil-img" />
+                    <img src="perfil_06.jpeg" alt="Perfil 6" class="perfil-img" />
+                    <img src="perfil_07.jpeg" alt="Perfil 7" class="perfil-img" />
+                    <img src="perfil_08.jpeg" alt="Perfil 8" class="perfil-img" />
+                    <img src="perfil_09.jpeg" alt="Perfil 9" class="perfil-img" />
+                    <img src="perfil_10.jpeg" alt="Perfil 10" class="perfil-img" />
+                    <img src="perfil_11.jpeg" alt="Perfil 11" class="perfil-img" />
+                    <img src="perfil_12.jpeg" alt="Perfil 12" class="perfil-img" />
+                    <img src="perfil_13.jpg" alt="Perfil 13" class="perfil-img" />
+                    <img src="perfil_14.jpeg" alt="Perfil 14" class="perfil-img" />
+                    <img src="perfil_15.jpeg" alt="Perfil 15" class="perfil-img" />
+                    <img src="perfil_16.jpeg" alt="Perfil 16" class="perfil-img" />
+                    <img src="perfil_17.jpeg" alt="Perfil 17" class="perfil-img" />
+                    <img src="perfil_18.jpeg" alt="Perfil 18" class="perfil-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ContenedorOpciones">
+        <button id="btnvolvr_pagina_principal" class="btnPerfil">Volver a la Página Principal</button>
+        <button id="btnRegistrar" class="btnPerfil">Registrar y enviar</button>
+    </div>
+    <script src="sesion_interfaz_registro_app.js"></script>
+    <script src="sesion_interfaz_registro_genero.js"></script>
+    <script src="sesion_interfaz_registro_login.js"></script>
+    <script src="sesion_interfaz_registro_navegarjs"></script>
+    <script src="sesion_interfaz_registro_perfil.js"></script>
+    <script src="sesion_interfaz_registro_Perfil_Usuario.js"></script>
+    <script src="sesion_interfaz_registro_volver_a_pag_principaljs"></script>
+    
+</body>
+</html>

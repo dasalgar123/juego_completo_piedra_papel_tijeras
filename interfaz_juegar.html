@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel, Tijeras - Juego Solo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div class="frame">
+            <h1>Juego Solo</h1>
+            <label for="numJugadas">¿Cuántas veces quieres jugar?</label>
+            <select id="numJugadas">
+                <option value="1">1 vez</option>
+                <option value="2">2 veces</option>
+                <option value="3">3 veces</option>
+            </select>
+            <button id="btnJugarSolo">Jugar</button>
+        </div>
+    </div>
+    <div id="app">
+        <div class="frame">
+            <h1>Juego Campeonato</h1>
+            <button id="btnJugarCampeonato">Jugar</button>
+            <div id="estadisticas" class="overlay" style="display: none;">
+                <h2>Estadísticas</h2>
+                <p id="resultadoEstadisticas"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="interfaz_inicio.css"> <!-- Asegúrate de tener tu archivo CSS -->
+    
+</head>
+<body>
+    <div id="app" class="app">
+        <div class="frame">
+            <fieldset class="fieldset">
+                <legend class="legend">Iniciar Sesión</legend>
+                <form id="loginForm" class="loginForm">
+                    <label id="nombre_label" class="nombre_label" for="nombre">Nombre</label>
+                    <input id="nombre_input" class="nombre_input" type="text" placeholder="favor, ingrese su nombre" required>
+                    
+                    <label id="password_label" class="password_label" for="contraseña">Contraseña</label>
+                    <input id="password_input" class="password_input" type="password" placeholder="favor, ingrese su contraseña" required>
+                </form>
+                <div id="contenedor_btn" class="contenedor_btn">
+                    <button type="button" id="btnEntrar" class="btnEntrar">Entrar</button>
+                    <button id="btnInicio" class="btnInicio">Inicio</button>
+                    <button id="btnSalir" class="btnSalir">Salir</button>
+                </div>
+                <div id="mensaje" class="mensaje"></div> <!-- Contenedor para el mensaje -->
+            </fieldset>
+        </div>
+    </div>
+    <script src="interfaz_inicio.js" defer></script> <!-- Vincula tu archivo JavaScript -->
+</body>
+</html>
